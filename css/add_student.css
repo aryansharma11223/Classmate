@@ -1,0 +1,8 @@
+#main .form-header h2,
+#main .field-container .field input{
+    border-bottom: 2px solid seagreen;
+}
+
+#main .search-btn button{
+    background-color: seagreen;
+}

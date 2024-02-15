@@ -1,0 +1,19 @@
+@font-face {
+    font-family: RobotoSlab;
+    src: url(../resources/fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: RobotoSlab, sans-serif;
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+}

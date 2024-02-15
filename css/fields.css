@@ -1,0 +1,77 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header .back a{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+}
+
+#main{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#main .form-header h2{
+    width: fit-content;
+    padding-bottom: 5px;
+}
+
+#main .form-container{
+    padding: 5vh 0;
+}
+
+#main .field-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#main .field-container .field{
+    width: 45%;
+    margin: 8px;
+}
+
+#main .field-container .field label{
+    font-weight: bold;
+}
+
+#main .field-container .field input{
+    width: 60%;
+    margin-top: 8px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#main .search-btn{
+    padding: 20px 5pc 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#main .search-btn button{
+    padding: 8px 20px;
+    color: #fff;
+    border: transparent;
+    outline: transparent;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+}
+
+#main .search-btn button:hover{
+    box-shadow: none;
+}
+
+#main .form-container .message{
+    text-align: center;
+}

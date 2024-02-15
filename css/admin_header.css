@@ -1,0 +1,57 @@
+#header{
+    height: 10vh;
+    width: 100%;
+    padding: 20px 40px;
+    padding-bottom: 0;
+}
+
+#header .profile{
+    text-align: right;
+}
+
+#header .profile h5,
+#header .profile a{
+    display: inline;
+}
+
+#header .profile h5{
+    font-size: 15px;
+    font-weight: bold;
+    color: royalblue;
+
+}
+
+#header .profile h5:nth-child(2){
+    margin: 0 10px;
+}
+
+#header .profile button{
+    background-color: black;
+    color: #fff;
+    border-color: transparent;
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 5px rgba(97, 96, 96, 0.75);
+    cursor: pointer;
+}
+
+#header .profile button:hover{
+    box-shadow: none;
+}
+
+#app{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: larger;
+    margin-bottom: 10vh;
+}
+
+#app .app-name h1{
+    letter-spacing: 5px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 5px;
+    border-bottom: 5px solid royalblue;
+}

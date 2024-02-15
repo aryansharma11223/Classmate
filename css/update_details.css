@@ -1,0 +1,35 @@
+#main{
+    padding-bottom: 15px;
+}
+
+#main .form-header h2,
+#main .field-container .field input{
+    border-bottom: 2px solid rgb(240, 240, 9);
+}
+
+#main .search-btn button{
+    background-color: rgb(240, 240, 9);
+}
+
+#main .field-container .field .find{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#main .field-container .field .find input[type="submit"]{
+    width: fit-content;
+    border-bottom: transparent;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 20px;
+    background-color: rgba(131, 48, 199, 0.733);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+}
+
+#main .field-container .field .find input[type="submit"]:hover{
+    box-shadow: none;
+}

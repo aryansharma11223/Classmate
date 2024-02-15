@@ -1,0 +1,129 @@
+#container{
+    margin-bottom: 5vh;
+    padding: 20px;
+}
+
+#container .form-heading h4{
+    width: fit-content;
+    padding-bottom: 5px;
+    border-bottom: 2px solid royalblue;
+}
+
+#container .sub-container{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding-top: 30px;
+}
+
+#container .sub-container .field-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#container .sub-container .field-container .field{
+    width: 45%;
+    margin: 8px;
+}
+
+#container .sub-container .field-container .field label{
+    font-weight: bold;
+
+}
+
+#container .sub-container .field-container .field input{
+    width: 100%;
+    margin-top: 8px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid royalblue;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#container .sub-container .search-btn{
+    padding: 20px 5pc 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#container .sub-container .search-btn button,
+#container .sub-container .search-btn input[type="submit"]{
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    padding: 8px 20px;
+    color: #fff;
+    border: transparent;
+    outline: transparent;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+}
+
+#container .sub-container .search-btn button:hover{
+    box-shadow: none;
+}
+
+#container .sub-container .options{
+    display: flex;
+    flex-direction: column;
+}
+
+#container .sub-container .options a{
+    display: block;
+    margin: 15px auto;
+    width: 10pc;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+}
+
+#container .sub-container .options a:hover{
+    box-shadow: none;
+}
+
+#container .sub-container .options a:nth-child(1){
+    background-color: seagreen;
+}
+
+#container .sub-container .options a:nth-child(2){
+    background-color: rgb(240, 240, 9);
+}
+
+#container .sub-container .options a:nth-child(3){
+    background-color: crimson;
+}
+
+#details{
+    padding: 20px;
+}
+
+#details table{
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+#details table tr:nth-child(1){
+    background-color: rgba(65, 105, 225, 0.8);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#details table td{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+#details table tr{
+    display: flex;
+    justify-content: space-between;
+}
