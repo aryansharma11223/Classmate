@@ -8,12 +8,8 @@
 
     
     $conn = new mysqli($server,$server_username,$password);
-
-    if(!($conn->select_db($db))){
-        $conn->query("CREATE DATABASE $db");
-    }
-
-    $conn = new mysqli($server,$server_username,$password,$db);
+    $conn->query("CREATE DATABASE IF NOT EXISTS ".$db);
+    $conn->select_db("$db");
 
     if($conn->connect_error){
         die("Server Connection Error: ".$conn->connect_error);
